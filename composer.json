@@ -61,5 +61,10 @@
     "files": [
       "src/helpers/all.php"
     ]
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "chown -R www-data:www-data /var/www/directus"
+    ],
   }
 }
