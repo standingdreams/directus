@@ -64,7 +64,7 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "chown -R www-data:www-data /var/www/directus"
+      "chown -R www-data:www-data /app"
     ]
   }
 }
