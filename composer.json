@@ -64,9 +64,9 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "chmod -R 777 logs/",
-      "chmod -R 777 public/",
-      "chmod -R 777 config/"
+      "chmod 777 /app/logs/",
+      "chmod 777 /app/public/",
+      "chmod 777 /app/config/"
     ]
   }
 }
