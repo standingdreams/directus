@@ -64,9 +64,9 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "chown -R www-data:www-data logs/",
-      "chown -R www-data:www-data public/",
-      "chown -R www-data:www-data config/"
+      "chmod -R 777 logs/",
+      "chmod -R 777 public/",
+      "chmod -R 777 config/"
     ]
   }
 }
