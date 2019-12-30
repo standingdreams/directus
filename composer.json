@@ -64,7 +64,9 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "chown -R www-data:www-data /app"
+      "chown -R www-data:www-data /app/logs",
+      "chown -R www-data:www-data /app/public",
+      "chown -R www-data:www-data /app/config"
     ]
   }
 }
